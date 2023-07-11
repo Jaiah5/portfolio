@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f] pt-[400px] pb-[700px]' >
-
+{/* //comit */}
 
         {/* Container*/}
 
