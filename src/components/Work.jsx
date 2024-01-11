@@ -1,7 +1,5 @@
 import React from 'react'
-import Task from '../assets/task-list.png';
 import Weather from '../assets/weather-api.png';
-import Cover from '../assets/cover.png';
 import LSC from '../assets/logoamend.png';
 import ACCA from '../assets/acca.png';
 import Halfords from '../assets/halfords.jpg';
