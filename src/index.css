@@ -29,8 +29,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 200px;
 }
+
+
+.contact {
+
+    height: 700px;
+
+
+}
+
 
 .content-div:hover {
     background-image: linear-gradient(

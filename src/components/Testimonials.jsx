@@ -11,18 +11,24 @@ function Testimonials () {
   const slides = [
 
     {
-      image: '/assets/mabelline.jpg', 
+      image: 'https://d3k81ch9hvuctc.cloudfront.net/company/TMQ9Tj/images/81c4a85b-a474-40b6-92cf-fc76aa1fe1f2.png', 
+      text: "I managed Jaiah during her time at Restorganic and she has been an incredible team player from the beginning. Jaiah is a very professional individual and her strategic mindset has helped the growth of Restorganic. Jaiah also possesses very useful technical and problem-solving skills in the field of email development, ESP platforms, and digital marketing.",
+      person: "Savinda Weerasinghe ||  Director at Restorganic"
+    },
+
+    {
+      image: 'https://i.ibb.co/DQxGsWt/Mabelline-Tan.jpg', 
       text: "Jaiah and I both worked in the campaign delivery team at MAB together. She is a great team player, always willing to lend a helping hand and has a keen eye for detail. It's been a great pleasure working with Jaiah and I wish her all the best in her future endeavours.",
       person: "Mabelline Tan || Campaign Executive at Mitchells & Butlers PLC",
     },
     {
-      image: '/assets/olivia.jpeg', 
+      image: 'https://i.ibb.co/T4JzKY6/Olivia-Beke.jpg', 
       text: "Jaiah started with Cherith Simmons on a placement for Marketing and HR, my role was marketing manager so was her direct line manager. Jaiah was a very fast learner and capable of managing multiple tasks, projects and roles at once. The marketing element of her role included social media, email campaigns, sales, account management and more. The HR function of Jaiah's role was primarily assisting with changes to policies and procedures, recruitment and line-managing work experience students. Jaiah put 100% into her work every day, was never late and was very professional. Jaiah is a great member of the team and will be an asset to any organisation who takes her on next.",
       person: "Olivia Beke || Marketing Professional"
     },
 
     {
-      image: '/assets/matt.jpg', 
+      image: 'https://i.ibb.co/BnPgs2c/Matt-Storey.jpg', 
       text: "Jaiah nurtured the Baby & Child and Touring category CRM programmes, working with suppliers like Joie and leading the Christmas kids’ bikes campaign. She also supported the team on key 'Email me when back in stock' and e-receipt projects. Jaiah is dependable, has good creative ideas and is excellent at managing stages of a campaign or project to deadlines.",
       person: "Matthew Storey || Group CRM Manager at Halfords"
     },
@@ -67,7 +73,7 @@ function Testimonials () {
 
       <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 flex flex-col flex-wrap justify-center items-center'>
 
-      <img src={slides[currentIndex].image} alt='pic' className='rounded-full' style={{width: '250px', height: '210px'}}/>
+      <img src={slides[currentIndex].image} alt='pic' className='rounded-full' style={{width: '250px', height: '250px'}}/>
 
       <p className='text-2xl text-gray-300 py-4 max-w-[900px] text-center'> {slides[currentIndex].text}  </p>
 

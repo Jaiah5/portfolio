@@ -19,7 +19,7 @@ const Home = () => {
             <p className='text-gray-300 text-3xl font-semibold'>Hi my name is</p>
             <h1 className='text-4xl sm:text-6xl text-[#FFC5B9] font-semibold'>Jaiah De Castro</h1>
    
-                <p className='text-lg sm:text-lg text-gray-300 py-4 max-w-[700px] text-center'>I am a consumer-focused and data-driven digital marketing professional with a successful track record for working collaboratively at all levels and motivating individuals to obtain maximum performance. I would also like to consider myself as an innovative, resilient, and self-driven individual when it comes to meeting and exceeding goals and targets. Currently, I am looking for growth and opportunities to work with like-minded individuals to tackle some of today’s toughest business challenges.</p>
+                <p className='text-lg sm:text-lg text-gray-300 py-4 max-w-[700px] text-center'>I am a consumer-focused and data-driven professional with a successful track record for working collaboratively at all levels and motivating individuals to obtain maximum performance. I would also like to consider myself as an innovative, resilient, and self-driven individual when it comes to meeting and exceeding goals and targets. Currently, I am looking for growth and opportunities to work with like-minded individuals to tackle some of today’s toughest business challenges.</p>
               
 
 
